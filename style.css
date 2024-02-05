@@ -1,0 +1,121 @@
+html{ 
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.h-content {
+    margin-left: 400px;
+    width:649px;
+}
+.header{
+    position: sticky;
+    display: flex;
+    height: 700px;
+    
+    background-color:#EEEFF1;
+}
+.topmenu {
+    display: flex;
+   
+   list-style: none;
+    
+}
+.header-link-nav.home {
+    color: #34547A;
+}
+.header-link-nav {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    display: flex;
+    padding-right: 45px;
+}
+.h-content-next {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 151px;
+    margin-left: 40px;
+}
+.h-m-text {
+    font-size: 48px;
+    
+}
+.h-text {
+    font-size: 16px;
+   color: #727272;
+}
+.h-button {
+    height: 65px;
+    width: 225px;
+    background-color: #34547A;
+    color: #EEEFF1;
+}
+
+.about-me {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+  
+   
+}
+.about-me-text {
+    margin-top: 112px;
+ margin-bottom: 100px;
+    width: 540px;
+    
+    
+}
+p {
+  color:#727272;
+    
+    
+}
+.about-me-picture {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.mywork {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEEFF1;
+    display: flex;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+}
+.mywork-content {
+    margin-top: 112px;
+    margin-bottom: 100px;
+       width: 540px;
+       
+}
+.mywork-video {
+    
+    height: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+footer{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 151px;
+    background-color: #34547A;
+}
+footer p{
+    color: white;
+}
+footer h3{
+    color: white;
+}
+.footer_content{
+
+  margin-left: 400px;
+}
