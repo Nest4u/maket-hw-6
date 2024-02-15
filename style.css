@@ -9,8 +9,10 @@ body{
 
 }
 .h-content {
-    margin-left: 400px;
-    width:649px;
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .header{
     position: sticky;
@@ -78,7 +80,7 @@ p {
     
 }
 .about-me-picture {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     display: block;
 }
